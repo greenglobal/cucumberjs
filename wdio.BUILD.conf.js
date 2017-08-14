@@ -10,5 +10,6 @@ config.capabilities = [{
 }];
 
 config.services = ['phantomjs'];
+config.reporters = ['cucumber', 'allure'];
 
 exports.config = config;

@@ -10,7 +10,7 @@ exports.config = {
     // `wdio` will be called from there.
     //
     specs: [
-
+      './src/features/**/*.feature'
     ],
 
   // Patterns to exclude.
@@ -123,7 +123,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['cucumber', 'allure'],
+    reporters: ['cucumber'],
     reporterOptions: {
       combined: true,
         outputDir: './wdio-logs/',
