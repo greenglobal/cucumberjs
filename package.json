@@ -9,7 +9,7 @@
     "test:unit": "jest --config=jest.json",
     "test:validate": "eslint 'src/**/*.js' 'test/**/*.js!(setup.js)'",
     "test:chrome": "wdio wdio.conf.js",
-    "test:phantomjs": "wdio wdio.BUILD.conf.js",
+    "test": "wdio wdio.BUILD.conf.js",
     "test:tags": "wdio wdio.BUILD.conf.js --tags=@Tag"
   },
   "repository": {
